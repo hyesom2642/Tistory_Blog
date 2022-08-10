@@ -1,0 +1,67 @@
+/* ===== *, html, body ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html { 
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	text-size-adjust: none;
+}
+html, body { 
+	margin: 0;
+	padding: 0;
+	background-color: #fff; 
+	overflow-x: hidden; 
+}
+body,
+input,
+textarea { 
+	font-size: 14px;
+	line-height: 100%; 
+}
+
+/* ===== <a> ===== */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ===== <h1>~<h6> ===== */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+/* ===== <img /> ===== */
+img {
+	display: block; 
+	border: 0;
+	max-width: 100%;
+}
+
+/* ===== <div> <span> <input /> <textarea> ===== */
+input, textarea {
+  outline: none;
+}
+div, span, input, textarea { 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	-ms-box-sizing: border-box; 
+	-o-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+
+
+/* ===== transition ===== */
+a, input, textarea, li {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
