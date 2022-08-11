@@ -1,0 +1,73 @@
+/* ===== sidebar common element ===== */
+#sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 100vh;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-right: 1px solid #eee;
+}
+#sidebar #line {
+  width: 100%;
+  height: 1px;
+  background-color: #eee;
+  margin: 20px;
+}
+#sidebar #blank {
+  clear: both;
+  width: 100%;
+  height: 100px;
+}
+
+/* ===== sidebar profile img ===== */
+#sidebar .sidebar-profile {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+#sidebar .sidebar-profile img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #eee;
+  border-radius: 50%;
+}
+
+/* ===== sidebar profile title & subtitle ===== */
+#sidebar .sidebar-title {
+  margin-bottom: 10px;
+}
+#sidebar .sidebar-title h1 {
+	padding: 0 10px;
+  font-size: 25px;
+	line-height: 200%;
+  font-weight: bold;
+  color: #666;
+}
+#sidebar .sidebar-title h1 a {
+  transition: all 0.3s ease-in-out;
+}
+#sidebar .sidebar-title h1 a:hover {
+  color: #c5cae9;
+}
+#sidebar .sidebar-subtitle p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #666;
+}
+#sidebar .sidebar-subtitle p:last-child {
+  margin-bottom: 0;
+}
+
+/* ===== sidebar menu ===== */
+#sidebar .sidebar-menu {
+  text-align: left;
+}
+#sidebar .sidebar-menu .sidebar-menu-item {
+  margin-bottom: 10px;
+}
